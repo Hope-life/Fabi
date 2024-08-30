@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Palavra</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <!--Título Principal-->
+    <h1>A minha palavra é: <u>HTCP</u></h1>
+
+    <!--Subitulo-->
+    <h2>O que é HTCP?</h2>
+
+<!--iserindo linha-->
+
+<!--iserindo paragrafo-->
+<p> Você já deve ter visto alguns artigos que ensinam os usuários a 
+    enviarem a imagem dos computadores para televisores. Esse tipo de 
+    prática é frequentemente associado à transmissão de vídeos de alta 
+    resolução para telas maiores do que as oferecidas por monitores 
+    comuns. <br>
+
+    Mas quando os computadores são destinados às centrais de mídia 
+    (não sendo utilizados para tais fins, apenas em situações 
+    esporádicas), eles podem receber o nome de HTPC (Home Theater 
+    Personal Computer). Eles geralmente são conectados a kits de 
+    áudio de alto desempenho, 
+    possibilitando melhores experiências para todos os usuários.
+</p>
+<H2>Baseado em QUIC</H2>
+    <p> de Transporte: Ao contrário do HTTP/1.x e HTTP/2, que utilizam TCP (Transmission Control Protocol) como base, o HTTP/3 é baseado no QUIC (Quick UDP Internet Connections). QUIC é um protocolo de transporte que usa UDP (User Datagram Protocol) e oferece vantagens em termos de latência e segurança.
+
+Multiplexação e Confiabilidade: QUIC combina características de TCP e TLS (Transport Layer Security) e adiciona recursos adicionais como multiplexação de conexões e recuperação rápida de pacotes perdidos. Isso reduz a latência e melhora o desempenho geral.
+    </p>
+<h2>Zero Round-Trip Time (0-RTT)</h2>
+    <p>Inicialização Rápida: Com HTTP/3 e QUIC, é possível retomar conexões anteriores com 0-RTT, o que significa que um cliente pode começar a enviar dados antes que a conexão completa esteja estabelecida, reduzindo significativamente o tempo de carregamento inicial.
+    </p>
+<h2>Melhor Desempenho em Redes Instáveis</h2>
+    <p>Menor Latência: QUIC possui mecanismos para minimizar a latência em redes instáveis e em conexões de alta perda de pacotes. Ele reduz o impacto de pacotes perdidos e melhora a experiência do usuário em condições de rede ruins.
+    </p>
+<h2>Segurança Incorporada</h2>
+    <p>Criptografia: A criptografia é incorporada diretamente no protocolo QUIC, eliminando a necessidade de uma camada separada para TLS como no HTTP/2. Isso simplifica o processo de criptografia e autenticação, garantindo que todos os dados sejam criptografados e protegidos contra ataques.
+    </p>
+<h2>Cabeçalhos Compressos e Multiplexação</h2>
+    <p>Compressão de Cabeçalhos: Semelhante ao HTTP/2, HTTP/3 continua a utilizar a compressão de cabeçalhos (HPACK no HTTP/2, QPACK no HTTP/3) para reduzir o tamanho dos cabeçalhos HTTP e melhorar a eficiência.
+Multiplexação de Streams: Permite que múltiplas requisições e respostas sejam enviadas simultaneamente em uma única conexão sem bloqueio (head-of-line blocking), que é uma limitação dos protocolos baseados em TCP.
+    </p>   
+<h2>Recuperação de Erros e Reconnects</h2>
+<p>Recuperação Eficiente: QUIC melhora a recuperação de erros e a reconexão em comparação com o TCP. Se uma conexão QUIC é interrompida, ela pode ser retomada mais rapidamente sem a necessidade de reestabelecer completamente a conexão.
+</p>   
+    <div class="img"> <img src="img/1.png" alt="imagem explicando o que é">
+    </div>
+<p> </p>
+
+    
+</body>
+
+</html>
